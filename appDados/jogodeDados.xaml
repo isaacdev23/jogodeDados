@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appDados.jogodeDados" Title="resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="dado1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="imgDado"/>
+            <ImageButton Source="botao_voltar.png" Margin="20" BackgroundColor="Transparent" x:Name="btVoltar" Clicked="btVoltar_Clicked"/>
+         
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
